@@ -11,4 +11,4 @@ age: function() {
     return currentYear - this.year
 }
 };
- console.log(car.age()) //2
+ console.log(car.age()) //0
