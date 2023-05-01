@@ -5,7 +5,7 @@ class Question {
         this.correctAnswer = correctAnswer
     }
     checkAnswer(usersAnswer){
-        return usersAnswer === this.correctAnswer
+        return usersAnswer === this.correctAnswer   
     }
 }
 
@@ -56,4 +56,4 @@ quiz.submitAnswer('Venus') // incorrect answer
 
 // score
 
-console.log('Score:', quiz.score)
+console.log('Score:', quiz.score) // total score
