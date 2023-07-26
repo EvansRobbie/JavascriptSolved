@@ -7,3 +7,4 @@ print(student.index('male'))
 
 for i in student:
     print(i)
+    
